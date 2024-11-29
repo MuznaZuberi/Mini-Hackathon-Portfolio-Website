@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-container{
+    background-color: #DEEFF9;
+
+}
+
+.myself-container{
+  background-color: #DEEFF9;
+
+}
+
+.d-btn{
+  background-color:#3387BA;
+}
+
+.ex-btn {
+  background-color: #DEEFF9;
+  border: 1px solid #3387BA;
+  color: #1276B4;
+}
+
+h1{
+  color:#3387BA;
+  font-weight: bold;
+}
+
+.skills-container{
+    background-color: #DEEFF9;
+
+}
+
+
+.footer-container{
+      background-color: #DEEFF9;
+}
+
+
+.icon-container{
+    background-color: #DEEFF9;
+
+}
+
+.icons{
+   color:#3387BA;
+
+}
